@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0;.
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box
+}
+
+.container {
+	border: 1px solid lightgray;
+	padding: 50px;
+	margin:  300px 500px;
+	width: 55%;
+}
+
+.menubar nav {
+	border: 2px;
+	display: inline-block;
+	width: 75%;
+	margin: 20px;
+}
+
+.menubar nav a {
+	margin-right: 65px;
+	color: lightgray; 
+	text-decoration: none;
+}
+
+.slogan {
+	display: inline-block;
+	width: 100%;
+}
+
+.row {
+	display: inline-block;
+	position: relative;
+	width: 45%;
+	padding: 2%;
+	width: 49%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	line-height: 75px;
+}
+
+.call-to-action {
+	text-align: center;
+	padding: 20px;
+}
+
+.btn {
+	font-size: 18px;
+	border: 1px solid black;
+	padding: 10px;
+	width: 175px;
+	margin-left: 110px;
+	
+}
+.slogan {
+	font-size: 25px;
+	display:inline-block;
+	border-bottom: 1px solid black;
+	margin: 30px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+
+.top-box {
+	border-top: 2px;
+	display: inline-block;
+	margin: 20px;
+	padding: 10px;
+	width: 45%;
+}
+
+.middle-img {
+	width: 100%; 
+	margin-left: 20px: 
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+
+}
+.bottom-box {
+	border: 2px;
+	display: inline-block;
+	margin: 30px 5px;
+	padding: 5px;
+	width: 32%;
+}
+
+.footer-content {
+	text-align: left;
+	width: 200px;
+	margin: 20px 0px;
+	padding: 20px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.copyright {
+	text-align: center;
+}
